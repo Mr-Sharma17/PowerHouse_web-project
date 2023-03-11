@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  padding: 5rem 10%;
+  padding: 2rem 10%;
 }
 
 .heading {
@@ -30,7 +30,7 @@ section {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  height: 0.2rem;
+  height: 0.1rem;
   width: 100%;
   background: #fff;
   z-index: -1;
@@ -48,11 +48,11 @@ section {
 .btn {
   margin-top: 1rem;
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   background: #f00;
   color: #fff;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -76,7 +76,7 @@ section {
 .logo {
   font-weight: bold;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .logo span {
@@ -103,7 +103,7 @@ section {
 
 .home {
   padding: 0;
-  margin-top: 8rem;
+  margin-top: 6.5rem;
 }
 
 .home .slide {
@@ -146,11 +146,11 @@ section {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .about .image {
-  flex: 1 1 40rem;
+  flex: 1 1 35rem;
   position: relative;
 }
 
@@ -176,11 +176,11 @@ section {
 
 .about .image img {
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .about .content {
-  flex: 1 1 50rem;
+  flex: 1 1 40rem;
 }
 
 .about .content span {
@@ -189,13 +189,13 @@ section {
 }
 
 .about .title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #fff;
   margin-top: 0.5rem;
 }
 
 .about .content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: gray;
   line-height: 2;
 }
@@ -253,7 +253,7 @@ section {
 }
 
 .services-container .content img {
-  height: 12rem;
+  height: 8rem;
   margin-bottom: 1rem;
   filter: invert(1);
 }
@@ -272,12 +272,12 @@ section {
 
 .pricing {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1rem;
 }
 
 .pricing .info > h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-top: 0.5rem;
   color: #fff;
 }
@@ -285,8 +285,9 @@ section {
 .pricing .info > p {
   line-height: 2;
   padding: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: gray;
+  text-align: justify;
 }
 
 .pricing .info > p > i {
@@ -301,17 +302,17 @@ section {
 
 .pricing .basic {
   background: rgb(19, 17, 17);
-  border-radius: 50%;
+  border-radius: 2rem;
 }
 
 .pricing .plan > h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 1rem 0;
   color: #fff;
 }
 
 .pricing .price {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bolder;
   color: #f00;
 }
@@ -328,7 +329,7 @@ section {
 .pricing .checks > p {
   line-height: 2;
   padding: 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: gray;
 }
 
@@ -339,13 +340,13 @@ section {
 
 .trainers-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
   text-align: center;
 }
 
 .trainers-container .box {
-  height: 45rem;
+  height: 35rem;
   overflow: hidden;
   position: relative;
 }
@@ -370,12 +371,12 @@ section {
 }
 
 .trainers-container .content span {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #f00;
 }
 
 .trainers-container .content h3 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #fff;
   padding-top: 0.5rem;
 }
@@ -399,6 +400,8 @@ section {
 .banner {
   background: rgb(19, 17, 17);
   text-align: center;
+  margin-top: 5rem;
+  padding: 5rem 0;
 }
 
 .banner span {
@@ -410,7 +413,7 @@ section {
   padding-top: 1rem;
   color: #fff;
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .banner p {
@@ -462,34 +465,35 @@ section {
 
 .review .info {
   flex: 1 1 35rem;
+  text-align: justify;
 }
 
 .review .info > h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   padding-top: 1rem;
 }
 
 .review .info > p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2;
   color: gray;
   padding: 1rem 0;
 }
 
 .review-slider {
-  flex: 1 1 60rem;
+  flex: 1 1 50rem;
 }
 
 .review-slider .slide {
   background: rgb(19, 17, 17);
   border-radius: 0 5rem;
-  padding: 2rem 3rem;
+  padding: 1.5rem 3rem;
 }
 
 .review-slider .slide > p {
   font-size: 1.2rem;
-  line-height: 2;
+  line-height: 1.5;
   color: gray;
 }
 
@@ -507,36 +511,38 @@ section {
 }
 
 .slide .user h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff;
 }
 
 .slide .user span {
   color: #f00;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footer {
   border-top: 1px solid #fff;
+  margin-top: 5rem;
 }
 
 .footer-container {
+  padding: 5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
 }
 
 .footer-container .box > h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   padding: 1rem 0;
 }
 
 .footer-container .links {
-  font-size: 1.2rem;
+  font-size: 1rem;
   display: block;
   color: gray;
-  padding: 1rem 0;
+  padding: 0.2rem 0;
 }
 
 .footer-container .links:hover {
@@ -544,9 +550,9 @@ section {
 }
 
 .footer-container .box > p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: gray;
-  padding: 1rem 0;
+  padding: 0.2rem 0;
 }
 
 .footer-container .box > p > i {
@@ -555,13 +561,13 @@ section {
 }
 
 .footer-container .social-media {
-  padding: 1rem 0;
+  padding: 0.2rem 0;
 }
 
 .footer-container .social-media > a {
-  height: 3.5rem;
-  width: 3.5rem;
-  line-height: 4rem;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
   color: #fff;
   background: rgb(19, 17, 17);
   border-radius: 50%;
@@ -574,11 +580,11 @@ section {
 }
 
 .footer-container .email {
-  margin-bottom: 1rem;
+  margin: 0.6rem 0 1rem;
   width: 100%;
   background: rgb(19, 17, 17);
-  padding: 1.2rem;
-  font-size: 1.2rem;
+  padding: 0.8rem;
+  font-size: 1rem;
   color: #fff;
 }
 
